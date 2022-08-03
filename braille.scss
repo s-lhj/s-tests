@@ -829,6 +829,9 @@ figure.image + p {
     margin-top: 1;
   }
 
+figure.image + div[epub|type~='pagebreak'] + p{
+    margin-top: 1;
+}
 
 p.braille-no-indent {
     text-indent: 0;
